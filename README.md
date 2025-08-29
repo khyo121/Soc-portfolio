@@ -17,7 +17,7 @@ body {
 .container { 
   max-width: 900px; 
   margin: 50px auto; 
-  background: rgba(255, 255, 255, 0.9); /* semi-transparent so gradient shows */
+  background: rgba(255, 255, 255, 0.9); 
   padding: 30px; 
   border-radius: 12px; 
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -55,7 +55,7 @@ a:hover {
 }
 
 /* Video Embeds */
-iframe { 
+iframe.video-frame { 
   width: 100%; 
   max-width: 800px; 
   height: 450px; 
@@ -64,24 +64,19 @@ iframe {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Certifications Section */
+/* Certifications */
 .certifications {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 15px;
+  justify-content: center;
 }
 
-.certifications .badge {
-  height: 120px; /* adjust size */
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.certifications .badge:hover {
-  transform: scale(1.07);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+.certifications iframe {
+  border: none;
+  width: 150px;
+  height: 150px;
 }
 </style>
 </head>
@@ -92,12 +87,12 @@ iframe {
 
   <div class="video">
     <h2>🔍 🖥️ SOC Threat Investigation</h2>
-    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+    <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
   <div class="video">
     <h2>🖥️ Event Log Threat Analysis</h2>
-    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+    <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
   <div class="section">
@@ -112,18 +107,15 @@ iframe {
     <h2>🎓 Certifications</h2>
     <div class="certifications">
       <!-- CompTIA A+ -->
-      <a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">
-        <img src="images/comptia-aplus.png" alt="CompTIA A+ Badge" class="badge">
-      </a>
+      <iframe src="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/embed" scrolling="no"></iframe>
 
       <!-- CompTIA Security+ -->
-      <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
-        <img src="images/comptia-securityplus.png" alt="CompTIA Security+ Badge" class="badge">
-      </a>
+      <iframe src="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/embed" scrolling="no"></iframe>
     </div>
   </div>
 </div>
 </body>
 </html>
+
 
 
