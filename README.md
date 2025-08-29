@@ -1,4 +1,5 @@
 
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,30 +11,40 @@ body {
   margin: 0; 
   padding: 0; 
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
-  color: #eaeaea; /* light text so it pops */
+  color: #eaeaea;
 }
 
 /* Container */
 .container { 
-  max-width: 900px; 
-  margin: 50px auto; 
-  background: rgba(255, 255, 255, 0.9); 
+  max-width: 1000px; 
+  margin: 0 auto; 
   padding: 30px; 
-  border-radius: 12px; 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   color: #333;
 }
 
-/* Headings */
-h1 { 
-  color: #2c5364; 
-  text-align: center; 
-  margin-bottom: 20px;
+/* Hero Section */
+.hero {
+  background: url('images/cyber-bg.jpg') center/cover no-repeat;
+  text-align: center;
+  color: #fff;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+.hero p {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: auto;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
 }
 
+/* Section Headings */
 h2 { 
   color: #1b4d89; 
-  margin-top: 30px; 
+  margin-top: 50px; 
   border-left: 5px solid #1b4d89; 
   padding-left: 10px; 
 }
@@ -50,8 +61,8 @@ a:hover {
 }
 
 /* Sections */
-.video, .section { 
-  margin-bottom: 40px; 
+.section {
+  margin-bottom: 60px; 
 }
 
 /* Video Embeds */
@@ -62,9 +73,14 @@ iframe.video-frame {
   border: 3px solid #1b4d89; 
   border-radius: 8px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+iframe.video-frame:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
 
-/* Certifications Section */
+/* Certifications */
 .certifications {
   display: flex;
   gap: 20px;
@@ -72,35 +88,72 @@ iframe.video-frame {
   margin-top: 15px;
   justify-content: center;
 }
-
 .certifications .badge {
   height: 120px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 .certifications .badge:hover {
   transform: scale(1.07);
   box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
+
+/* Tools / Skills */
+.tools {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tools img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease;
+}
+.tools img:hover {
+  transform: scale(1.1);
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+.contact a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.2em;
+}
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>Khari Owens – SOC Analyst Portfolio</h1>
-  <p style="text-align:center;">Welcome to my cybersecurity portfolio. Here I showcase real SOC investigations, incident reports, and certifications.</p>
 
-  <div class="video">
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Khari Owens</h1>
+  <p>SOC Analyst | Cybersecurity Enthusiast | Showcasing Threat Investigations, Reports, and Certifications</p>
+</div>
+
+<div class="container">
+
+  <!-- Videos -->
+  <div class="section">
     <h2>🔍 🖥️ SOC Threat Investigation</h2>
     <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
-  <div class="video">
+  <div class="section">
     <h2>🖥️ Event Log Threat Analysis</h2>
     <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
+  <!-- Incident Reports -->
   <div class="section">
     <h2>📄 Incident Reports</h2>
     <ul>
@@ -109,23 +162,44 @@ iframe.video-frame {
     </ul>
   </div>
 
+  <!-- Certifications -->
   <div class="section">
     <h2>🎓 Certifications</h2>
     <div class="certifications">
-      <!-- CompTIA A+ CE -->
       <a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">
         <img src="images/comptia-a-ce-certification.1.png" alt="CompTIA A+ CE Badge" class="badge">
       </a>
-
-      <!-- CompTIA Security+ CE -->
       <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
         <img src="images/comptia-security-ce-certification.png" alt="CompTIA Security+ CE Badge" class="badge">
       </a>
     </div>
   </div>
+
+  <!-- Tools / Skills -->
+  <div class="section">
+    <h2>🛠️ Tools & Skills</h2>
+    <div class="tools">
+      <img src="images/splunk.png" alt="Splunk">
+      <img src="images/wireshark.png" alt="Wireshark">
+      <img src="images/elk.png" alt="ELK Stack">
+      <img src="images/python.png" alt="Python">
+      <img src="images/osint.png" alt="OSINT Tools">
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="section contact">
+    <h2>📬 Contact Me</h2>
+    <p>Connect or reach out:</p>
+    <a href="mailto:your.email@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/khariowens" target="_blank">LinkedIn</a>
+    <a href="https://github.com/khyo121" target="_blank">GitHub</a>
+  </div>
+
 </div>
 </body>
 </html>
+
 
 
 
