@@ -10,14 +10,14 @@ body {
   margin: 0; 
   padding: 0; 
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
-  color: #eaeaea;   /* light text so it pops */
+  color: #eaeaea; /* light text so it pops */
 }
 
 /* Container */
 .container { 
   max-width: 900px; 
   margin: 50px auto; 
-  background: rgba(255, 255, 255, 0.9); 
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent so gradient shows */
   padding: 30px; 
   border-radius: 12px; 
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -64,7 +64,7 @@ iframe.video-frame {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Certifications */
+/* Certifications Section */
 .certifications {
   display: flex;
   gap: 20px;
@@ -73,10 +73,16 @@ iframe.video-frame {
   justify-content: center;
 }
 
-.certifications iframe {
-  border: none;
-  width: 150px;
-  height: 150px;
+.certifications .badge {
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certifications .badge:hover {
+  transform: scale(1.07);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
 </style>
 </head>
@@ -107,15 +113,20 @@ iframe.video-frame {
     <h2>🎓 Certifications</h2>
     <div class="certifications">
       <!-- CompTIA A+ -->
-      <iframe src="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/embed" scrolling="no"></iframe>
+      <a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">
+        <img src="images/aplus.png" alt="CompTIA A+ Badge" class="badge">
+      </a>
 
       <!-- CompTIA Security+ -->
-      <iframe src="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/embed" scrolling="no"></iframe>
+      <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
+        <img src="images/securityplus.png" alt="CompTIA Security+ Badge" class="badge">
+      </a>
     </div>
   </div>
 </div>
 </body>
 </html>
+
 
 
 
