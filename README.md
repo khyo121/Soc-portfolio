@@ -79,12 +79,12 @@ iframe {
   <p style="text-align:center;">Welcome to my cybersecurity portfolio. Here I showcase real SOC investigations, incident reports, and certifications.</p>
 
   <div class="video">
-    <h2>🔍 Phishing Alert Investigation</h2>
+    <h2>🔍 🖥️ SOC Threat Investigation</h2>
     <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
   <div class="video">
-    <h2>🖥️ SIEM Log Analysis Walkthrough</h2>
+    <h2>🖥️ Event Log Threat Analysis</h2>
     <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
