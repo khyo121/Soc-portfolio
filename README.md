@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -65,11 +65,23 @@ iframe {
 }
 
 /* Certifications Section */
-.section p {
-  background: #f0f8ff; 
-  padding: 10px; 
-  border-radius: 6px; 
-  display: inline-block;
+.certifications {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.certifications .badge {
+  height: 120px; /* adjust size */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certifications .badge:hover {
+  transform: scale(1.07);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
 </style>
 </head>
@@ -98,9 +110,20 @@ iframe {
 
   <div class="section">
     <h2>🎓 Certifications</h2>
-    <p>CompTIA Security+, CySA+ (in progress), Project+, SecurityX</p>
+    <div class="certifications">
+      <!-- CompTIA A+ -->
+      <a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">
+        <img src="images/comptia-aplus.png" alt="CompTIA A+ Badge" class="badge">
+      </a>
+
+      <!-- CompTIA Security+ -->
+      <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
+        <img src="images/comptia-securityplus.png" alt="CompTIA Security+ Badge" class="badge">
+      </a>
+    </div>
   </div>
 </div>
 </body>
 </html>
+
 
