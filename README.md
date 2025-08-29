@@ -168,6 +168,7 @@ iframe.video-frame:hover {
       </a>
     </div>
     <ul>
+      <li>CompTIA Network+</li>
       <li>CompTIA CySA+ (in progress)</li>
       <li>CompTIA Project+</li>
       <li>SecurityX</li>
@@ -198,5 +199,6 @@ iframe.video-frame:hover {
 </div>
 </body>
 </html>
+
 
 
