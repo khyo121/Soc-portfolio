@@ -79,6 +79,19 @@ iframe.video-frame:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
 
+/* Certifications Badge */
+.certifications .badge {
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  vertical-align: middle;
+}
+.certifications .badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+}
+
 /* Tools / Skills */
 .tools {
   display: flex;
@@ -145,10 +158,14 @@ iframe.video-frame:hover {
   <!-- Certifications -->
   <div class="section">
     <h2>🎓 Certifications</h2>
-    <ul>
-      <li><a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">CompTIA A+ CE</a></li>
-      <li><a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">CompTIA Security+ CE</a></li>
-      <li><a href="https://www.credly.com/badges/YOUR_CYSA_BADGE_ID/public_url" target="_blank">CompTIA CySA+ (in progress)</a></li>
+    <ul class="certifications">
+      <li>CompTIA A+ CE</li>
+      <li>
+        <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
+          <img src="images/comptia-security-ce-certification.png" alt="CompTIA Security+ CE Badge" class="badge">
+        </a>
+      </li>
+      <li>CompTIA CySA+ (in progress)</li>
       <li>CompTIA Project+</li>
       <li>SecurityX</li>
     </ul>
@@ -178,7 +195,3 @@ iframe.video-frame:hover {
 </div>
 </body>
 </html>
-
-
-
-
