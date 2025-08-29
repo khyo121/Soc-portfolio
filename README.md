@@ -10,17 +10,18 @@ body {
   margin: 0; 
   padding: 0; 
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
-  color: #333;
+  color: #eaeaea;   /* light text so it pops */
 }
 
 /* Container */
 .container { 
   max-width: 900px; 
   margin: 50px auto; 
-  background: #ffffff; 
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent so gradient shows */
   padding: 30px; 
   border-radius: 12px; 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  color: #333;
 }
 
 /* Headings */
@@ -60,7 +61,7 @@ iframe {
   height: 450px; 
   border: 3px solid #1b4d89; 
   border-radius: 8px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 /* Certifications Section */
