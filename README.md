@@ -138,13 +138,13 @@ iframe.video-frame:hover {
 
   <!-- First Updated Video -->
   <div class="section">
-    <h2>Static Analysis in Reverse Engineering: A Deep Dive</h2>
+    <h2>⚡️ Static Analysis in Reverse Engineering: A Deep Dive</h2>
     <iframe class="video-frame" src="https://player.vimeo.com/video/1114762484" allowfullscreen></iframe>
   </div>
 
   <!-- Second Video -->
   <div class="section">
-    <h2>🖥️ Event Log Threat Analysis</h2>
+    <h2>🖥️ Memory Forensics Analysis of Process Dump: Investigating System Activity and Pre-Crash Connections</h2>
     <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
   </div>
 
