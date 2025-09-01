@@ -182,7 +182,7 @@ iframe.video-frame:hover {
     <div class="tools">
       <img src="images/Splunk-Logo.jpg" alt="Splunk">
       <img src="images/wire shark.webp" alt="Wireshark">
-      <img src="images/elk.png" alt="ELK Stack">
+      <img src="images/elk-logo.png" alt="ELK Stack">
       <img src="images/python.png" alt="Python">
       <img src="images/osint.png" alt="OSINT Tools">
     </div>
