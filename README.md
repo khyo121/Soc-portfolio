@@ -65,7 +65,7 @@ a:hover {
 }
 
 /* Video Embeds */
-iframe.video-frame { 
+iframe.video-frame, video.video-frame { 
   width: 100%; 
   max-width: 800px; 
   height: 450px; 
@@ -74,7 +74,7 @@ iframe.video-frame {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-iframe.video-frame:hover {
+iframe.video-frame:hover, video.video-frame:hover {
   transform: scale(1.02);
   box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }
@@ -138,14 +138,17 @@ iframe.video-frame:hover {
 
   <!-- First Updated Video -->
   <div class="section">
-    <h2>⚡️ Static Analysis in Reverse Engineering: A Deep Dive</h2>
+    <h2>Static Analysis in Reverse Engineering: A Deep Dive</h2>
     <iframe class="video-frame" src="https://player.vimeo.com/video/1114762484" allowfullscreen></iframe>
   </div>
 
-  <!-- Second Video -->
+  <!-- Second Updated Video -->
   <div class="section">
-    <h2>🖥️ Memory Forensics Analysis of Process Dump: Investigating System Activity and Pre-Crash Connections</h2>
-    <iframe class="video-frame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+    <h2>🧠 Crash Dump Forensics</h2>
+    <video class="video-frame" controls>
+      <source src="https://www.dropbox.com/scl/fi/25spognfhqahcayo20eum/PROCDUMP.mov?rlkey=tjjghttrvrpdg3fj54rivrkbf&st=cx1kisvo&raw=1" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
   <!-- Incident Reports -->
@@ -182,8 +185,8 @@ iframe.video-frame:hover {
     <div class="tools">
       <img src="images/Splunk-Logo.jpg" alt="Splunk">
       <img src="images/wire shark.webp" alt="Wireshark">
-      <img src="images/elk-logo.png" alt="ELK Stack">
-      <img src="images/python_logo_icon_168886.png" alt="Python">
+      <img src="images/elk.png" alt="ELK Stack">
+      <img src="images/python.png" alt="Python">
       <img src="images/osint.png" alt="OSINT Tools">
     </div>
   </div>
@@ -200,3 +203,4 @@ iframe.video-frame:hover {
 </div>
 </body>
 </html>
+
