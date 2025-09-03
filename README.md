@@ -196,7 +196,7 @@ iframe.video-frame:hover, video.video-frame:hover {
       <img src="images/wire shark.webp" alt="Wireshark">
       <img src="images/elk-logo.png" alt="ELK Stack">
       <img src="images/python_logo_icon_168886.png" alt="Python">
-      <img src="images/osint.png" alt="OSINT Tools">
+      <img src="images/OSINT-Tools-1.webp" alt="OSINT Tools">
     </div>
   </div>
 
