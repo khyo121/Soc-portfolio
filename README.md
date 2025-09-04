@@ -160,6 +160,15 @@ iframe.video-frame:hover, video.video-frame:hover {
     </video>
   </div>
 
+  <!-- Fourth Video -->
+  <div class="section">
+    <h2>🦠 MSHTML Malware Analysis</h2>
+    <video class="video-frame" controls>
+      <source src="https://www.dropbox.com/scl/fi/r0kc49fz80zkgbymaswhb/malware-analyiz.mov?rlkey=571twmli8q3ftzlh6ctsw1n5d&st=4tjgl23d&raw=1" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
   <!-- Incident Reports -->
   <div class="section">
     <h2>📄 Incident Reports</h2>
@@ -212,5 +221,3 @@ iframe.video-frame:hover, video.video-frame:hover {
 </div>
 </body>
 </html>
-
-
