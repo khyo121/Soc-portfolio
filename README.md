@@ -196,7 +196,7 @@ iframe.video-frame:hover, video.video-frame:hover {
       </a>
       <!-- CISSP -->
       <a href="https://www.credly.com/badges/INSERT-CISSP-BADGE-ID/public_url" target="_blank">
-        <img src="images/cissp-certification.png" alt="CISSP Badge" class="badge">
+        <img src="images/comptia-secure-infrastructure-specialist-csis-stackable-certification.png" alt="CISSP Badge" class="badge">
       </a>
     </div>
     <ul>
