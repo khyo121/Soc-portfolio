@@ -182,18 +182,31 @@ iframe.video-frame:hover, video.video-frame:hover {
   <div class="section">
     <h2>🎓 Certifications</h2>
     <div class="certifications">
+      <!-- A+ -->
       <a href="https://www.credly.com/badges/d1b72ac2-c77c-4a11-8078-8c2e9c4aa1bd/public_url" target="_blank">
         <img src="images/comptia-a-ce-certification.1.png" alt="CompTIA A+ CE Badge" class="badge">
       </a>
+      <!-- Security+ -->
       <a href="https://www.credly.com/badges/d9fd4974-bd10-4554-9040-a5659d27fb7d/public_url" target="_blank">
         <img src="images/comptia-security-ce-certification.png" alt="CompTIA Security+ CE Badge" class="badge">
       </a>
+      <!-- Network+ -->
+      <a href="https://www.credly.com/badges/INSERT-NETWORKPLUS-BADGE-ID/public_url" target="_blank">
+        <img src="images/comptia-networkplus-certification.png" alt="CompTIA Network+ Badge" class="badge">
+      </a>
+      <!-- CISSP -->
+      <a href="https://www.credly.com/badges/INSERT-CISSP-BADGE-ID/public_url" target="_blank">
+        <img src="images/cissp-certification.png" alt="CISSP Badge" class="badge">
+      </a>
     </div>
     <ul>
+      <li>CompTIA A+</li>
+      <li>CompTIA Security+</li>
       <li>CompTIA Network+</li>
       <li>CompTIA CySA+ (in progress)</li>
       <li>CompTIA Project+</li>
       <li>SecurityX</li>
+      <li>CISSP</li>
     </ul>
   </div>
 
@@ -221,3 +234,4 @@ iframe.video-frame:hover, video.video-frame:hover {
 </div>
 </body>
 </html>
+
