@@ -192,7 +192,7 @@ iframe.video-frame:hover, video.video-frame:hover {
       </a>
       <!-- Network+ -->
       <a href="https://www.credly.com/badges/INSERT-NETWORKPLUS-BADGE-ID/public_url" target="_blank">
-        <img src="images/comptia-networkplus-certification.png" alt="CompTIA Network+ Badge" class="badge">
+        <img src="images/comptia-network-ce-certification.1.png" alt="CompTIA Network+ Badge" class="badge">
       </a>
       <!-- CISSP -->
       <a href="https://www.credly.com/badges/INSERT-CISSP-BADGE-ID/public_url" target="_blank">
@@ -200,9 +200,6 @@ iframe.video-frame:hover, video.video-frame:hover {
       </a>
     </div>
     <ul>
-      <li>CompTIA A+</li>
-      <li>CompTIA Security+</li>
-      <li>CompTIA Network+</li>
       <li>CompTIA CySA+ (in progress)</li>
       <li>CompTIA Project+</li>
       <li>SecurityX</li>
