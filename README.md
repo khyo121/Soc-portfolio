@@ -173,7 +173,7 @@ iframe.video-frame:hover, video.video-frame:hover {
   <div class="section">
     <h2>📄 Incident Reports</h2>
     <ul>
-      <li><a href="reports/phishing.pdf" target="_blank">Phishing Case Report (PDF)</a></li>
+      <li><a href="Threat_Hunting_Splunk_Case_Study.pdf">Threat Hunting Case Report (PDF)</a></li>
       <li><a href="reports/malware.pdf" target="_blank">Malware Alert Report (PDF)</a></li>
     </ul>
   </div>
